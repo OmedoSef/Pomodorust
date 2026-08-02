@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Pomodorust
+Comment=Minuteur Pomodoro dans la barre système
+Exec=__POMODORUST_BIN__
+Icon=__POMODORUST_ICON__
+Terminal=false
+Categories=Utility;

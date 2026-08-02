@@ -1,0 +1,29 @@
+[package]
+name = "pomodorust"
+version = "0.1.0"
+edition = "2021"
+description = "Un minuteur Pomodoro pour la barre système d'Ubuntu"
+license = "MIT"
+
+[[bin]]
+name = "pomodorust"
+path = "src/main.rs"
+
+[[bin]]
+name = "gen-icon"
+path = "src/bin/gen_icon.rs"
+
+[dependencies]
+tray-icon = "0.24"
+gtk = "0.18"
+glib = "0.18"
+libappindicator = "0.9"
+notify-rust = "4.18"
+serde = { version = "1", features = ["derive"] }
+toml = "1"
+directories = "6"
+image = { version = "0.25", default-features = false, features = ["png"] }
+rodio = "0.20"
+
+[profile.release]
+opt-level = 2
