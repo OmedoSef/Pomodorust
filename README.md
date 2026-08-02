@@ -162,3 +162,7 @@ Normalement déjà présentes sur une installation Ubuntu de bureau standard :
 `libgtk-3-0`, `libayatana-appindicator3-1`, `libxdo3`, `libdbus-1-3`,
 `libasound2` (ALSA, pour le carillon). Si l'une manque, `apt install
 <paquet>` suffit.
+
+## Licence
+
+[MIT](LICENSE) — distribué "as is", sans garantie d'aucune sorte.
